@@ -4,7 +4,7 @@ pub fn variables() {
 
    assert_eq!(a1, a2);
 
-   let a3: u32 = 1;
+   let a3: i32 = 1;
 
    assert_eq!(a1, a3);
 }
