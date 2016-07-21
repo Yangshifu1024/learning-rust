@@ -16,7 +16,7 @@ impl fmt::Debug for Length {
     }
 }
 
-pub fn structs() {
+pub fn main() {
     let p = Point { x: 0, y: 1 };
     println!("p: {:?}", p);
 

@@ -1,5 +1,5 @@
-pub fn array() {
-    println!("Testing array");
+#![feature(inclusive_range_syntax)]
+pub fn main() {
     let arr1: [i32; 3] = [0; 3];
     println!("arr1: {:?}", arr1);
     let arr2: [i32; 3] = [1, 2, 3];

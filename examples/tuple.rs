@@ -1,4 +1,4 @@
-pub fn tuple() {
+pub fn main() {
     println!("Testing tuples");
 
     let tuple: (&str, &str) = ("Hello", "World");

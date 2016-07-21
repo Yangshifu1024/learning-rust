@@ -1,4 +1,4 @@
-pub fn variables() {
+pub fn main() {
     let a1: i32 = 1;
     let a2: i32 = 1;
 

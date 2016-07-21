@@ -19,15 +19,14 @@ fn match_point(point: Point) {
     }
 }
 
-pub fn match_pattern() {
-    println!("Testing match");
+pub fn main() {
     let day: u8 = 5;
     match day {
         0 | 6 => println!("weekend!"),
         d @ 1...5 => println!("weekday {}", d),
         _ => println!("invalid"),
     }
-    println!("//////////");
+    println!("----");
 
     let pair1: (f64, f64) = (1.2, 3.4);
     match_pair(pair1);
@@ -35,13 +34,13 @@ pub fn match_pattern() {
     match_pair(pair2);
     let pair3: (f64, f64) = (5.6, 7.8);
     match_pair(pair3);
-    println!("//////////");
+    println!("----");
 
     let p1 = Point { x: 1, y: 2 };
     match_point(p1);
     let p2 = Point { x: 3, y: 4 };
     match_point(p2);
-    println!("//////////");
+    println!("----");
 
     let o: Option<i32> = Some(99i32);
     if let Some(i) = o {

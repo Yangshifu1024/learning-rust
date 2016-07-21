@@ -10,7 +10,7 @@ fn function_with_ref(x: &mut i32) {
     *x *= 2
 }
 
-pub fn functions() {
+pub fn main() {
     function_without_return(2);
     println!("//////////////");
     let ret: i32 = function_with_return(4);
@@ -19,5 +19,4 @@ pub fn functions() {
     let mut four: i32 = 4;
     function_with_ref(&mut four);
     println!("4 * 2 = {}", four);
-    println!("//////////////");
 }
