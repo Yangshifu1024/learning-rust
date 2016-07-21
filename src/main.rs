@@ -1,4 +1,5 @@
 #![feature(inclusive_range_syntax)]
+#![feature(box_syntax, box_patterns)]
 mod variables;
 use variables::variables;
 //
@@ -22,7 +23,6 @@ use string::string;
 //
 mod structs;
 use structs::structs;
-//
 // #![feature(inclusive_range_syntax)]
 mod for_loop;
 use for_loop::for_loop;
@@ -32,6 +32,9 @@ use match_pattern::match_pattern;
 //
 mod functions;
 use functions::functions;
+//
+mod boxes;
+use boxes::boxes;
 fn main() {
     variables();
     mutations();
@@ -44,4 +47,5 @@ fn main() {
     for_loop();
     match_pattern();
     functions();
+    boxes();
 }
