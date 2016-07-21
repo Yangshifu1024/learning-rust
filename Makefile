@@ -13,3 +13,4 @@ all:
 	cargo run --example tuple
 	cargo run --example variables
 	cargo run --example vec
+	cargo run --example traits
